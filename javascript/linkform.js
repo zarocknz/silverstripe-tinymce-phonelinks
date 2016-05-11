@@ -1,12 +1,6 @@
 (function($) {
     $.entwine('ss', function ($) {
-
-        /**
-         * Inserts and edits links in an html editor, including internal/external web links,
-         * links to files on the webserver, email addresses, and anchors in the existing html content.
-         * Every variation has its own fields (e.g. a "target" attribute doesn't make sense for an email link),
-         * which are toggled through a type dropdown. Variations share fields, so there's only one "title" field in the form.
-         */
+         /* This is a copy of this function in the CWP flavor of Silverstripe with 'tel' link stuff added */
          $('form.htmleditorfield-linkform').entwine({
 
  			// TODO Entwine doesn't respect submits triggered by ENTER key
