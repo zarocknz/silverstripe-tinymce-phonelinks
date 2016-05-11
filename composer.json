@@ -1,8 +1,8 @@
 {
 	"name": "zarocknz/silverstripe-tinymce-phonelinks",
-	"description": "Adds ability to create tel: links in the TinyMCE editor",
+	"description": "Adds ability to create tel links in the TinyMCE editor",
 	"type": "silverstripe-module",
-    "keywords" : ["silverstripe", "HTMLEditorField", "Tel:", "Telephone Links"],
+    "keywords" : ["silverstripe", "HTMLEditorField", "Tel", "Telephone Links"],
     "license" : "BSD-3-Clause",
     "authors": [
 		{
